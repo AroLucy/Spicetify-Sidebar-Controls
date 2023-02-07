@@ -1,7 +1,7 @@
 .Root__now-playing-bar {
     width: calc(var(--nav-bar-width) + 9px);
     padding-block: 15px;
-    background-color: #050505;
+    background-color: var(--lyrics-color-background);
 }
 
 footer.main-nowPlayingBar-container {
@@ -30,9 +30,15 @@ footer.main-nowPlayingBar-container {
 }
 .Root__top-container {
     grid-template-areas:
-        "nav-bar         main-view"
-        "nav-bar main-view"
-        "now-playing-bar main-view";
+        "nav-bar            main-view"
+        "nav-bar            main-view"
+        "now-playing-bar    main-view";
+}
+.Root__top-container--right-sidebar-visible {
+    grid-template-areas:
+        "nav-bar            main-view       right-sidebar"
+        "nav-bar            main-view       right-sidebar"
+        "now-playing-bar    main-view       right-sidebar";
 }
 
 .main-nowPlayingBar-left * {
@@ -98,4 +104,23 @@ footer.main-nowPlayingBar-container {
 
 .Type__TypeElement-sc-goli3j-0.hGXzYa.main-connectBar-connectBar.encore-bright-accent-set.T3hkVxXuSbCYOD2GIeQd {
     transform: translate(0px, 14px);
+}
+.main-trackInfo-container * {
+    width: calc(var(--nav-bar-width) + 9px);
+    text-align: center;
+}
+
+.main-trackInfo-container {
+    width: calc(var(--nav-bar-width) + 9px);
+    text-align: center;
+}
+.Type__TypeElement-sc-goli3j-0.eEALRg.main-trackInfo-artists {
+    flex-direction: row;
+    justify-content: center;
+}
+
+.Type__TypeElement-sc-goli3j-0.eEALRg.main-trackInfo-artists * {
+    display: inline;
+    width: fit-content;
+    /* text-align: center; */
 }
