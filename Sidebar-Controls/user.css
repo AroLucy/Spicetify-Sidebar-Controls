@@ -1,7 +1,7 @@
 .Root__now-playing-bar {
     width: calc(var(--nav-bar-width) + 9px);
     padding-block: 15px;
-    background-color: var(--lyrics-color-background);
+    background-color: #050505;
 }
 
 footer.main-nowPlayingBar-container {
