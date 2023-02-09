@@ -2,7 +2,7 @@
 ![](preview.png)
 Move the controls to the sidebar
 
-#### Appling
+#### Applying
 ```bash
 git clone https://github.com/LucyUwI/Spicetify-Sidebar-Controls
 cd Spicetify-Sidebar-Controls
