@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Spicetify-Sidebar-Controls",
+    "description": "Spicetify theme that move the controls to the sidebar.",
+    "preview": "preview.png",
+    "readme": "README.md",
+    "usercss": "Sidebar-Controls/user.css",
+    "schemes": "Default",
+    "authors": [
+        { "name": "LucyUwI", "url": "https://github.com/LucyUwI" }
+    ],
+    "tags": ["Controls","Sidebar"]
+  }
+]
