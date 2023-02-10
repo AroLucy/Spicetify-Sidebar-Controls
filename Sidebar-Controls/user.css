@@ -38,10 +38,10 @@ footer.main-nowPlayingBar-container {
 .main-nowPlayingBar-center {
     width: 100%;
 }
-.WFRr38dFOxh75JyzSTj5.encore-bright-accent-set.IbmaxRtjqCjqTBpFwCgw {
+.encore-bright-accent-set {
     transform: translate(0px, -15px);
 }
-.Type__TypeElement-sc-goli3j-0.hGXzYa.gQoa8JTSpjSmYyABcag2.encore-bright-accent-set.T3hkVxXuSbCYOD2GIeQd {
+.main-trackInfo-name {
     margin-top: 10px;
 }
 button.main-coverSlotCollapsed-expandButton {
@@ -51,7 +51,7 @@ footer.main-nowPlayingBar-container {
     border-top: none;
     background: transparent;
 }
-.mwpJrmCgLlVkJVtWjlI1 {
+.main-nowPlayingBar-right > div {
     justify-content: center;
 }
 .main-nowPlayingBar-right {
@@ -63,35 +63,40 @@ footer.main-nowPlayingBar-container {
 .volume-bar:hover ~ div.main-connectPicker-button {
     display: none;
 }
-.Type__TypeElement-sc-goli3j-0.hGXzYa.main-connectBar-connectBar.encore-bright-accent-set.T3hkVxXuSbCYOD2GIeQd {
+.main-connectBar-connectBar.encore-bright-accent-set {
     transform: translate(0px, 14px);
 }
 .main-trackInfo-container * {
-    width: calc(var(--nav-bar-width) + 9px);
-    text-align: center;
+    width: 100% !important;
+    text-align: center !important;
+    margin-inline: 0 !important;
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .main-trackInfo-container {
-    width: calc(var(--nav-bar-width) + 9px);
+    width: 95%;
     text-align: center;
 }
-.Type__TypeElement-sc-goli3j-0.eEALRg.main-trackInfo-artists {
+.main-trackInfo-artists {
     flex-direction: row;
     justify-content: center;
 }
-.Type__TypeElement-sc-goli3j-0.eEALRg.main-trackInfo-artists * {
+.main-trackInfo-artists * {
     display: inline;
     width: fit-content;
 }
 #main > div > div.Root__top-container > div.Root__now-playing-bar > footer > div > div.main-nowPlayingBar-left > div > div.main-coverSlotCollapsed-container.main-coverSlotCollapsed-navAltContainer > div > div > a > div > div > div > div {
-   display: none;
-}
-.main-coverSlotCollapsed-container.main-coverSlotCollapsed-navAltContainer, .main-coverSlotCollapsed-container.main-coverSlotCollapsed-navAltContainer * {
-   width: 180px;
-   height: 180px;
-}
-.Foyk_HJx16yh22JYmQ56 {
     display: none;
 }
+.main-coverSlotCollapsed-container.main-coverSlotCollapsed-navAltContainer, .main-coverSlotCollapsed-container.main-coverSlotCollapsed-navAltContainer * {
+    width: 180px;
+    height: 180px;
+}
 [dir=ltr] .main-nowPlayingWidget-coverExpanded {
-  transform: translateX(0px);
+    transform: translateX(0px);
+}
+.main-coverSlotExpanded-container {
+    display: none;
 }
