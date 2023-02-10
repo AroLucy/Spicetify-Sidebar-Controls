@@ -3,6 +3,7 @@
 Move the controls to the sidebar
 
 #### Applying
+##### Available on the marketplace
 ```bash
 git clone https://github.com/LucyUwI/Spicetify-Sidebar-Controls
 cd Spicetify-Sidebar-Controls
