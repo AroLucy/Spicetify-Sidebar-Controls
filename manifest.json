@@ -5,6 +5,7 @@
     "preview": "preview.png",
     "readme": "README.md",
     "usercss": "Sidebar-Controls/user.css",
+    "include": "https://lucys.page/Spicetify-Sidebar-Controls/VolumeBeforeHover.js",
     "schemes": "Default",
     "authors": [
         { "name": "LucyUwI", "url": "https://github.com/LucyUwI" }
